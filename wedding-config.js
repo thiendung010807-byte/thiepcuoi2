@@ -3,10 +3,10 @@ window.WEDDING_CONFIG = {
   groom: {
     name: "Trần Văn Chiến",
     shortName: "Trần Chiến",
-    bankName: "MB BANK",
-    bankAccount: "5678998797979",
-    bankAccountName: "TRAN VAN CHIEN",
-    bankQrImage: "assets/qr.png", // Ví dụ: "assets/qr-chu-re.png"
+    bankName: "HD BANK",
+    bankAccount: "141704070004292",
+    bankAccountName: "NGUYEN THI LAN THAO",
+    bankQrImage: "assets/qr2.png", // Ví dụ: "assets/qr-chu-re.png"
   },
   bride: {
     name: "Nguyễn Thị Lan Thảo",
