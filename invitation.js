@@ -679,7 +679,7 @@ const giftQrPlaceholder = document.getElementById("giftQrPlaceholder");
 const giftSaveQr = document.getElementById("giftSaveQr");
 
 function hydrateGiftInfo() {
-  if (giftGroomName) giftGroomName.textContent = weddingConfig.groom.name;
+  if (giftGroomName) giftGroomName.textContent = weddingConfig.bride.name;
   if (giftBankName) giftBankName.textContent = weddingConfig.groom.bankName || "Ngân hàng của chú rể";
   if (giftBankAccount) giftBankAccount.textContent = weddingConfig.groom.bankAccount || "Cập nhật số tài khoản";
   if (giftBankAccountName) giftBankAccountName.textContent = weddingConfig.groom.bankAccountName || weddingConfig.groom.name.toUpperCase();
