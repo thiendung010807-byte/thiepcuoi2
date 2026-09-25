@@ -680,11 +680,11 @@ const giftSaveQr = document.getElementById("giftSaveQr");
 
 function hydrateGiftInfo() {
   if (giftGroomName) giftGroomName.textContent = weddingConfig.bride.name;
-  if (giftBankName) giftBankName.textContent = weddingConfig.groom.bankName || "Ngân hàng của chú rể";
-  if (giftBankAccount) giftBankAccount.textContent = weddingConfig.groom.bankAccount || "Cập nhật số tài khoản";
-  if (giftBankAccountName) giftBankAccountName.textContent = weddingConfig.groom.bankAccountName || weddingConfig.groom.name.toUpperCase();
+  if (giftBankName) giftBankName.textContent = weddingConfig.bride.bankName || "Ngân hàng của chú rể";
+  if (giftBankAccount) giftBankAccount.textContent = weddingConfig.bride.bankAccount || "Cập nhật số tài khoản";
+  if (giftBankAccountName) giftBankAccountName.textContent = weddingConfig.bride.bankAccountName || weddingConfig.bride.name.toUpperCase();
 
-  const qr = String(weddingConfig.groom.bankQrImage || "").trim();
+  const qr = String(weddingConfig.bride.bankQrImage || "").trim();
   if (qr && giftQrImage) {
     giftQrImage.src = qr;
     giftQrImage.hidden = false;
