@@ -3,13 +3,13 @@ window.WEDDING_CONFIG = {
   groom: {
     name: "Trần Văn Chiến",
     shortName: "Trần Chiến",
-    bankName: "HD BANK",
-    bankAccount: "141704070004292",
-    bankAccountName: "NGUYEN THI LAN THAO",
-    bankQrImage: "assets/qr2.png", // Ví dụ: "assets/qr-chu-re.png"
   },
   bride: {
     name: "Nguyễn Thị Lan Thảo",
     shortName: "Lan Thảo",
+    bankName: "HD BANK",
+    bankAccount: "141704070004292",
+    bankAccountName: "NGUYEN THI LAN THAO",
+    bankQrImage: "assets/qr2.png", // Ví dụ: "assets/qr-chu-re.png"
   },
 };
